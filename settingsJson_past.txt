@@ -18,6 +18,14 @@ C:\Program Files\Memurai\
 
 ejecutar server:
 daphne -p 8000 APIRest.asgi:application
+python actualizador.py
+python script\actualizador.py
+
+en Shell:
+from script.actualizador import actualizar_sensores
+actualizar_sensores()
+
+
 $ netstat -ano | findstr :8000
 docker run -d --name redis-container -p 6379:6379 redis
 docker info
@@ -25,7 +33,7 @@ manejo de archivos estaticos
 python manage.py collectstatic
 entorno\Scripts\actívate
 
-INSERT INTO "IoT_sensor_iot" ("nombre_sensor", "tipo_sensor", "unidad_medida", "cultivo", "ubicacion", "valor_min", "valor_max")
+INSERT INTO "IoT_sensor" ("nombre_sensor", "tipo_sensor", "unidad_medida", "cultivo", "ubicacion", "valor_min", "valor_max")
 VALUES ('Sensor', 'Digital', 'Kg', 'Tomate', '01', 02, 0.5);
 
 
@@ -45,7 +53,7 @@ class Sensor_iot(models.Model):
 
 
 
-
+'Default nombre_sensor'
 
 
 	PRUEBA
@@ -121,3 +129,7 @@ values ('bancal_01','este bancal contiene tomate','6.200',1,1)
 
 insert into "IoT_sensor" ("id",fk_bancal_id","fk_configuracion_id","fk_tipo_sensor_id")
 values (1,1,1)
+
+
+
+  { id: 15, label: "Inventario", path: "/inventario", icon: <FaBox /> },

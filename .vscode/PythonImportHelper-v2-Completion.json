@@ -1804,7 +1804,31 @@
         "documentation": {}
     },
     {
+        "label": "Sensor",
+        "importPath": "apps.IoT.models",
+        "description": "apps.IoT.models",
+        "isExtraImport": true,
+        "detail": "apps.IoT.models",
+        "documentation": {}
+    },
+    {
+        "label": "Sensor",
+        "importPath": "apps.IoT.models",
+        "description": "apps.IoT.models",
+        "isExtraImport": true,
+        "detail": "apps.IoT.models",
+        "documentation": {}
+    },
+    {
         "label": "async_to_sync",
+        "importPath": "asgiref.sync",
+        "description": "asgiref.sync",
+        "isExtraImport": true,
+        "detail": "asgiref.sync",
+        "documentation": {}
+    },
+    {
+        "label": "sync_to_async",
         "importPath": "asgiref.sync",
         "description": "asgiref.sync",
         "isExtraImport": true,
@@ -1817,6 +1841,51 @@
         "description": "channels.layers",
         "isExtraImport": true,
         "detail": "channels.layers",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "django",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django",
+        "description": "django",
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "websockets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "websockets",
+        "description": "websockets",
+        "detail": "websockets",
         "documentation": {}
     },
     {
@@ -1870,15 +1939,6 @@
         "documentation": {}
     },
     {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
         "label": "application",
         "kind": 5,
         "importPath": "APIRest.asgi",
@@ -1901,7 +1961,7 @@
         "kind": 5,
         "importPath": "APIRest.settings",
         "description": "APIRest.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-_shvkqv=2lfr+55zwk#9^26jwr=@*(dd@ly9j!_0wp!r6dnrg0'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"channels\",\n    'daphne',\n    'django_extensions',\n    \"apps.Trazabilidad\",",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-_shvkqv=2lfr+55zwk#9^26jwr=@*(dd@ly9j!_0wp!r6dnrg0'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"channels\",\n    'corsheaders',\n    'daphne',\n    'django_extensions',",
         "detail": "APIRest.settings",
         "documentation": {}
     },
@@ -1910,7 +1970,7 @@
         "kind": 5,
         "importPath": "APIRest.settings",
         "description": "APIRest.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"channels\",\n    'daphne',\n    'django_extensions',\n    \"apps.Trazabilidad\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"channels\",\n    'corsheaders',\n    'daphne',\n    'django_extensions',\n    \"apps.Trazabilidad\",\n    \"django.contrib.admin\",",
         "detail": "APIRest.settings",
         "documentation": {}
     },
@@ -1919,7 +1979,7 @@
         "kind": 5,
         "importPath": "APIRest.settings",
         "description": "APIRest.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"channels\",\n    'daphne',\n    'django_extensions',\n    \"apps.Trazabilidad\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\", ",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"channels\",\n    'corsheaders',\n    'daphne',\n    'django_extensions',\n    \"apps.Trazabilidad\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",",
         "detail": "APIRest.settings",
         "documentation": {}
     },
@@ -1928,7 +1988,7 @@
         "kind": 5,
         "importPath": "APIRest.settings",
         "description": "APIRest.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    \"channels\",\n    'daphne',\n    'django_extensions',\n    \"apps.Trazabilidad\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\", \n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"channels\",\n    'corsheaders',\n    'daphne',\n    'django_extensions',\n    \"apps.Trazabilidad\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\", \n    \"django.contrib.sessions\",",
         "detail": "APIRest.settings",
         "documentation": {}
     },
@@ -1937,7 +1997,16 @@
         "kind": 5,
         "importPath": "APIRest.settings",
         "description": "APIRest.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'APIRest.urls'",
+        "peekOfCode": "MIDDLEWARE = [\n    'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
+        "detail": "APIRest.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOWED_ORIGINS",
+        "kind": 5,
+        "importPath": "APIRest.settings",
+        "description": "APIRest.settings",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    \"http://localhost:5173\",\n]\nROOT_URLCONF = 'APIRest.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {",
         "detail": "APIRest.settings",
         "documentation": {}
     },
@@ -2657,7 +2726,7 @@
         "kind": 2,
         "importPath": "apps.IoT.socket.signals",
         "description": "apps.IoT.socket.signals",
-        "peekOfCode": "def model_post_save(sender, instance, **kwargs):\n    print(f\"🔴 Señal ejecutada para el sensor {instance.id}\")  # Agregamos un mensaje para verificar\n    channel_layer = get_channel_layer()\n    async_to_sync(channel_layer.group_send)(\n        \"sensor_updates\",  \n        {\n            \"type\": \"send_message\",\n            \"message\": f\"El  {instance.nombre_sensor} ha sido actualizado\",\n        }\n    )",
+        "peekOfCode": "def model_post_save(sender, instance, **kwargs):\n    print(f\"🔴 Señal ejecutada para el sensor {instance.id}\")  # Agregamos un mensaje para verificar\n    channel_layer = get_channel_layer()\n    async_to_sync(channel_layer.group_send)(\n        \"sensor_updates\",  \n        {\n            \"type\": \"send_message\",\n            \"message\": f\"El {instance.nombre_sensor} en el cultivo de{instance.cultivo}, ubicado en {instance.ubicacion}ha sido actualizado\",\n        }\n    )",
         "detail": "apps.IoT.socket.signals",
         "documentation": {}
     },
@@ -3235,6 +3304,15 @@
         "description": "apps.Users.models",
         "peekOfCode": "class Usuario(AbstractUser):\n    identificacion = models.BigIntegerField(unique=True,null=False)\n    fk_rol = models.ForeignKey(Rol,on_delete=models.SET_NULL,null=True)\n    fecha_nac = models.DateField(null=True)\n    telefono = models.CharField(max_length=20,null=True)\n    email = models.EmailField(max_length=40,unique=True)\n    REQUIRED_FIELDS = ['identificacion','email']\n    objects = UsuarioFormulario()\n    def __str__(self):\n        return str(self.username)",
         "detail": "apps.Users.models",
+        "documentation": {}
+    },
+    {
+        "label": "actualizar_sensores",
+        "kind": 2,
+        "importPath": "script.actualizador",
+        "description": "script.actualizador",
+        "peekOfCode": "def actualizar_sensores():\n    sensores = Sensor.objects.all()\n    for sensor in sensores:\n        sensor.valor_min = random.uniform(0.0, 50.0)  # Genera un valor aleatorio entre 0.0 y 50.0\n        sensor.valor_max = random.uniform(50.0, 100.0)  # Genera un valor aleatorio entre 50.0 y 100.0\n        sensor.save()\n        print(f\"Sensor {sensor.nombre_sensor} actualizado: valor_min={sensor.valor_min}, valor_max={sensor.valor_max}\")\nif __name__ == \"__main__\":\n    actualizar_sensores()",
+        "detail": "script.actualizador",
         "documentation": {}
     },
     {

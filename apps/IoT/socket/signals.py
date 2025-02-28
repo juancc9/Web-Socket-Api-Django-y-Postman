@@ -14,6 +14,6 @@ def model_post_save(sender, instance, **kwargs):
         "sensor_updates",  
         {
             "type": "send_message",
-            "message": f"El  {instance.nombre_sensor} ha sido actualizado",
+            "message": f"El {instance.nombre_sensor} en el cultivo de{instance.cultivo}, ubicado en {instance.ubicacion}ha sido actualizado",
         }
     )
